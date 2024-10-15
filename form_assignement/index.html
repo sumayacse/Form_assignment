@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Drop Us a <span class="highlight">Line</span></h1>
+      
+    <form action="#" >
+    <div class="input-group-one">
+        <div class="name">
+        <label for="name">Name*</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter Your name" required>
+        </div>
+        <br>
+        <div class="email">
+            <label for="email">Email*</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email " required>
+        </div>
+    </div>
+        <br>
+    <div class="input-group-two">    
+        <div class="number">
+            <label for="number">Phone Number (Optional)</label><br>
+            <input type="text" id="number" name="number" placeholder="Enter Your Phone Number">
+        </div>
+        <br>
+
+        <div class="companyname">
+            <label for="companyname">Company Name (Optional)</label><br>
+            <input type="text" id="companyname" name="companyname" placeholder="Enter Your Company Name">
+        </div>
+
+   </div>
+        <br>
+        <div>
+            <label for="services">Services You Need (You can choose multiple)</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="services" value="Mobile Development"> Mobile Development</label>
+                <label><input type="checkbox" name="services" value="Web Development"> Web Development</label>
+                <label><input type="checkbox" name="services" value="SQA Solution"> SQA Solution</label>
+                <label><input type="checkbox" name="services" value="Web UX/UI Design"> Web UX/UI Design</label>
+                <label><input type="checkbox" name="services" value="API Integration"> API Integration</label>
+                <label><input type="checkbox" name="services" value="Mobile UX/UI Design"> Mobile UX/UI Design</label>
+                <label><input type="checkbox" name="services" value="Software Development"> Software Development</label>
+                <label><input type="checkbox" name="services" value="Custom Service"> Custom Service</label>
+            </div>
+        </div> 
+        <br> 
+         <div>
+            <label for="budget">Your Budget (Optional)</label>
+        <div class="radio-group">
+            <label><input type="radio" name="budget" value="Less than $500"> Less than $500</label>
+            <label><input type="radio" name="budget" value="$500 - $1,000">$500 - $1,000</label>
+            <label><input type="radio" name="budget" value="$1,001 - $1,500">$1,001 - $1,500</label>
+            <label><input type="radio" name="budget" value="$1,500 - $2,000">$1,500 - $2,000</label>
+        </div>
+    </div>
+        <br>
+
+        <div>
+            <label for="query">Deep Details About Your Query (Optional)</label><br><br>
+            <textarea id="query" name="query" placeholder="Tell us more about your query"></textarea>
+        </div>
+
+        <div >
+            <label for="file">Add Attachments (Optional)</label> <br>
+            <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf">
+        </div>
+        <br>
+        <div >
+            <button type="submit">Send Inquiry</button>
+        </div>
+
+</form>
+</div>
+        
+</body>
+</html>
