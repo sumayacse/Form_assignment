@@ -2,7 +2,7 @@
 
 ## Demo
 
-[Live Demo]([your-demo-link-here](https://bucolic-pixie-b41e6c.netlify.app/))
+https://bucolic-pixie-b41e6c.netlify.app/
 
 ## Description
 
